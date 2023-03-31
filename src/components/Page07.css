@@ -1,0 +1,120 @@
+.page07-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(
+    to left,
+    rgba(55, 157, 180, 0.7),
+    rgb(56, 146, 139, 0.7)
+  );
+}
+
+.page07-header {
+  margin: 40px 0 40px 20%;
+  color: white;
+  font-weight: 500;
+}
+
+.page07-box-container {
+  background-color: white;
+  width: 80vw;
+  height: 60vh;
+  box-shadow: rgba(37, 34, 36, 0.4) -5px 5px, rgba(46, 39, 43, 0.3) -10px 10px,
+    rgba(39, 33, 37, 0.2) -15px 15px;
+  display: flex;
+}
+
+.page07-box-continer-left-column {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.page07-box-container-left-column-header {
+  color: burlywood;
+  font-size: 36px;
+  text-align: left;
+  margin: 75px 50px;
+}
+
+.page07-brown-box {
+  background-color: rgb(223, 162, 81);
+  width: 120%;
+  height: 25%;
+  left: -31%;
+  position: relative;
+}
+
+.page07-list {
+  margin-top: 2.5%;
+  text-align: justify;
+}
+
+.page07-list-items {
+  color: white;
+  margin-top: 1.5%;
+  margin-left: 27%;
+  list-style: none;
+}
+
+.meter-square {
+  float: right;
+  margin-right: 9%;
+}
+
+.buildingComplex {
+  flex: 3;
+  margin: 25px 15px;
+}
+
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1850px) {
+  .page07-brown-box {
+    height: 30%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 1366px) {
+  .page07-brown-box {
+    height: 27%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 600px) {
+  .page07-container {
+    min-height: 120vh;
+  }
+  .page07-header {
+    margin: 5%;
+  }
+  .page07-box-container {
+    flex-direction: column;
+    box-shadow: none;
+  }
+  .page07-brown-box {
+    width: 90%;
+    margin-top: 10%;
+    height: 15%;
+    left: 5%;
+    font-size: 11px;
+    padding: 1% 0 1% 6%;
+  }
+  .page07-box-container-left-column-header {
+    color: burlywood;
+    font-size: 36px;
+    text-align: left;
+    margin: 5%;
+  }
+  .page07-list {
+    min-height: 100vh;
+  }
+  .page07-list-items {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .buildingComplex {
+    margin: 0;
+    margin-top: -145%;
+    width: 100%;
+  }
+}
