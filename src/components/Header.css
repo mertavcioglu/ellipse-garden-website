@@ -88,7 +88,7 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 600px) {
   .header-container {
-    display: none;
+    /* display: none; */
     flex-direction: column;
     padding-top: 200px;
   }
@@ -99,9 +99,9 @@
   }
 
   .header-logo {
-    display: none;
+    /* display: none; */
     height: 150px;
-    /* margin-top: 300px; */
+    margin-top: 100px;
     filter: drop-shadow(0 5px 16px black);
   }
 

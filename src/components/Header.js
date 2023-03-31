@@ -5,9 +5,15 @@ import phoneLogoWhite from "../images/phone-logo-white.png";
 
 function Header() {
   const [scrolledNavbar, setScrolledNavbar] = useState(false);
+  let scrollAmount = 650;
+
+  if (window.innerWidth < 650) {
+    scrollAmount = 150;
+    console.log(scrollAmount);
+  }
 
   function changeNavbarColor() {
-    if (window.scrollY >= 650) {
+    if (window.scrollY >= scrollAmount) {
       setScrolledNavbar(true);
     } else {
       setScrolledNavbar(false);
