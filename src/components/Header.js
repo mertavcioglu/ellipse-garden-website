@@ -9,7 +9,6 @@ function Header() {
 
   if (window.innerWidth < 650) {
     scrollAmount = 150;
-    console.log(scrollAmount);
   }
 
   function changeNavbarColor() {
