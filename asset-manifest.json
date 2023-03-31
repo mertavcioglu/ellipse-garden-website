@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ellipse-garden-website/static/css/main.42a89306.css",
+    "main.js": "/ellipse-garden-website/static/js/main.989c2150.js",
+    "static/media/page01.png": "/ellipse-garden-website/static/media/page01.21b682a892d671f972cf.png",
+    "static/media/page03.png": "/ellipse-garden-website/static/media/page03.6882f9d2fd04c291f3ee.png",
+    "static/media/crop.png": "/ellipse-garden-website/static/media/crop.0695cb6a167582b6af8e.png",
+    "static/media/page01-phone.png": "/ellipse-garden-website/static/media/page01-phone.31d2b73a77427cfa9949.png",
+    "static/media/interior01.jpg": "/ellipse-garden-website/static/media/interior01.d5bdc47ccde8e3a1fe4c.jpg",
+    "static/media/building-complex.jpg": "/ellipse-garden-website/static/media/building-complex.9a08414d86437c6d4a44.jpg",
+    "static/media/interior02.jpg": "/ellipse-garden-website/static/media/interior02.8ab7f0ad04467f9c63d3.jpg",
+    "static/media/location.jpg": "/ellipse-garden-website/static/media/location.60f3d223ed120b318e37.jpg",
+    "static/media/logo-color.png": "/ellipse-garden-website/static/media/logo-color.4efe4c8f76943995798d.png",
+    "static/media/logo-white.png": "/ellipse-garden-website/static/media/logo-white.ad61c5f439082898df2e.png",
+    "static/media/phone-logo-white.png": "/ellipse-garden-website/static/media/phone-logo-white.353069241ad5dfe4cf48.png",
+    "static/media/marq-logo.png": "/ellipse-garden-website/static/media/marq-logo.325f42881de550c9dbe1.png",
+    "static/media/building-plan.jpg": "/ellipse-garden-website/static/media/building-plan.d78b1563fe0e81939ce6.jpg",
+    "static/media/koc-logo.jpg": "/ellipse-garden-website/static/media/koc-logo.aa8eb167ec6b6f7a1946.jpg",
+    "index.html": "/ellipse-garden-website/index.html",
+    "main.42a89306.css.map": "/ellipse-garden-website/static/css/main.42a89306.css.map",
+    "main.989c2150.js.map": "/ellipse-garden-website/static/js/main.989c2150.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42a89306.css",
+    "static/js/main.989c2150.js"
+  ]
+}
